@@ -29,7 +29,7 @@ Windows 用户（PowerShell）：
 
 3. 克隆本项目代码
 在终端中运行：
-`git clone https://github.com/hacimi/mg1640-local-document-assistant.git`
+`git clone https://github.com/MichealGriffin640/mg1640-local-document-assistant.git`
 `cd mg1640-local-document-assistant`
 如果没有安装 Git，可以先参考：https://git-scm.com/downloads
 
