@@ -1,0 +1,16 @@
+[project]
+name = "mg1640-local-document-assistant"
+version = "0.1.0"
+description = "use this mcp to help answer questions based your local documents"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]>=1.12.4",
+]
+
+[project.scripts]
+mg1640-local-document-assistant = "mg1640_local_document_assistant:main"
+
+[build-system]
+requires = ["uv_build>=0.8.10,<0.9.0"]
+build-backend = "uv_build"
